@@ -1,0 +1,9 @@
+.products {
+  display: flex;
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  left: 50%;
+  transform: translate(-50%);
+  top: 750px;
+}

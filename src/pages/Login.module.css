@@ -1,0 +1,32 @@
+.loginpage {
+  width: 100%;
+  background-image: url(../img/food1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form {
+  width: 400px;
+}
+
+.info {
+  font-family: 'Nobile', sans-serif;
+  color: white;
+}
+
+.info h1 {
+  width: 700px;
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+.info h2 {
+  font-size: 24px;
+}

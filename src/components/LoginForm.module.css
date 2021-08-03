@@ -1,0 +1,72 @@
+.loginform{
+  max-width: 600px;
+  min-width: 300px;
+  max-height: 700px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  background-color: #ffffffe3;
+  border-radius: 12px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 1);
+}
+
+.logo {
+  height: 62px;
+  width: 200px;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 100%;
+  
+}
+
+.row input{
+  background-color: transparent;
+  width: 80%;
+  box-sizing: border-box;
+	border: none;
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.2rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187,187,187,0.2);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.row input:focus{
+   box-shadow: inset 0px -3px 0px 0px #07cd1b67;
+   outline: none;
+}
+
+.row label{
+  align-self: start;
+  padding-left: 2.5rem;
+  padding-bottom: 0.5rem;
+  color: rgba(187,187,187,0.9);
+}
+
+.row button{
+  border-radius: 14px;
+  width: 80%;
+  height: 40px;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: rgb(34,193,195);
+  background: linear-gradient(90deg, #059c15 0, #07CD1C 100%);
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+}
+
+.row button:hover{
+  opacity: 0.8;
+}
+
+#button{
+  padding-bottom: 1.5rem;
+}

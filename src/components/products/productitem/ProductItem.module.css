@@ -1,0 +1,55 @@
+.meal {
+  display: flex;
+  margin: 5px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.meal h3 {
+  color: rgb(54, 54, 54);
+  margin: 0 0 0.25rem 0;
+  width: 250px;
+}
+
+.description {
+  position: absolute;
+  transform: translate(2%, 80px);
+  margin-bottom: 1.5rem;
+  color: gray;
+  font-style: italic;
+}
+
+.dropdown {
+  position: absolute;
+  width: 150px;
+  font-size: 15px;
+  transform: translate(2%, 80px);
+  margin-bottom: 1.5rem;
+  color: gray;
+  font-style: italic;
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.price {
+  font-weight: bold;
+  color: #313131;
+  font-size: 1.25rem;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 150px;
+  margin-right: 10px;
+}
