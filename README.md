@@ -1,4 +1,4 @@
-# fresh-meal assessment
+# fresh-meal
 
 ## Installation
 
